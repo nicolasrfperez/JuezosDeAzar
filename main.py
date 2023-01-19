@@ -46,11 +46,11 @@ while True:
                     r = JuegoPPYJ()
                     print(r)
                     if r == 'Us':
-                        acuResul[0] = acuResul[0] + 1
+                        acuResul[0] += 1
                     elif r == 'Pc':
-                        acuResul[1] = acuResul[1] + 1
+                        acuResul[1] += 1
                     elif r== 'E' :
-                        acuResul[2] = acuResul[2] + 1    
+                        acuResul[2] += 1  
                     decorar1()
                     salir=input("\tDesea seguir Jugando?(s/n): ")
                     if salir == "s":
