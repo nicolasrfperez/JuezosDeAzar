@@ -69,11 +69,11 @@ while True:
                    # print("5 Ruedas Ganadas")
                     r = JuegoPPYJ()
                     if r == 'Us':
-                        acuResul[0] = acuResul[0] + 1
+                        acuResul[0] += 1
                     elif r == 'Pc':
-                        acuResul[1] = acuResul[1] + 1
+                        acuResul[1] += 1
                     elif r== 'E' :
-                        acuResul[2] = acuResul[2] + 1 
+                        acuResul[2] += 1 
                     decorar1()
                     print (acuResul)
                     #victorias = victorias + 1
@@ -96,11 +96,11 @@ while True:
                 for i in range(cantRuedas):
                     r = JuegoPPYJ()
                     if r == 'Us':
-                        acuResul[0] = acuResul[0] + 1
+                        acuResul[0] += 1
                     elif r == 'Pc':
-                        acuResul[1] = acuResul[1] + 1
+                        acuResul[1] += 1
                     elif r== 'E' :
-                        acuResul[2] = acuResul[2] + 1 
+                        acuResul[2] += 1 
                     decorar1()
                     print (acuResul)
                     decorar1()
